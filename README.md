@@ -24,7 +24,6 @@ timestamp　level　module　message
 ## ブランチ構成
 
 - **main**：単一責任の原則に基づき、リファクタリングでクラスを分割（parser / analyzer / formatter）した実装
-
 - **before-refactoring**：動作する成果物として最初に作成した単一クラスの実装
 
 ## 今後の展望
