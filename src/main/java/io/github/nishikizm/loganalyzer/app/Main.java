@@ -23,8 +23,8 @@ public class Main {
             System.exit(2);
             return;
         }
-        ResultFormatter formetter = new ResultFormatter();
-        System.out.println(formetter.format(ans));
+        ResultFormatter formatter = new ResultFormatter();
+        System.out.println(formatter.format(ans));
     }
 
 }
