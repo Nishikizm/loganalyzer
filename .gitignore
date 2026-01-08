@@ -1,0 +1,17 @@
+# === IDE ===
+.vscode/
+.idea/
+
+# === Maven ===
+target/
+
+# === artifacts ===
+*.class
+*.jar
+
+# === logs ===
+*.log
+
+# === OS ===
+Thumbs.db
+.DS_Store
