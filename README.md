@@ -21,6 +21,10 @@ timestamp　level　module　message
 ※区切りはスペース／タブの連続を想定  
 ※*message* は空白を含む文字列を想定
 
+## 使用技術
+
+- Java 17
+
 ## ブランチ構成
 
 - **main**：単一責任の原則に基づき、リファクタリングでクラスを分割（parser / analyzer / formatter）した実装
@@ -29,4 +33,4 @@ timestamp　level　module　message
 ## 今後の展望
 
 - unitテスト実施予定
-- Springフレームワーク導入予定
+- Java 8 / 11 環境への対応
